@@ -5,9 +5,8 @@ output = ""
 results = []
 tries = 1
 
-print(len(set("pneumonoultramicroscopicsilicovolcanoconiosis")))
-
 print("Wordle for the Simple-Minded")
+
 while (tries < 7):
     guess = input(f"Guess {tries}: ")
     guess = guess.upper()
@@ -27,6 +26,7 @@ while (tries < 7):
                 break
         else:
             output = output + '⬛'
+
     print("Output: " + output)
     results.append(output)
 
@@ -39,5 +39,3 @@ while (tries < 7):
     output = ""
     secret = permSecret
     tries = tries + 1
-
-    
