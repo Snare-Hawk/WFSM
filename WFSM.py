@@ -1,4 +1,4 @@
-secret = "pneumonoultramicroscopicsilicovolcanoconiosis"
+secret = "kill"
 secret = secret.upper()
 permSecret = secret
 output = ""
@@ -34,7 +34,7 @@ while (tries < 7):
         print(f"Wordle for the Simple-Minded X {tries}/6\n")
         for i in results:
             print(i)
-        tries = 42
+        quit()
 
     output = ""
     secret = permSecret
