@@ -39,3 +39,7 @@ while (tries < 7):
     output = ""
     secret = permSecret
     tries = tries + 1
+
+print(f"Wordle for the Simple-Minded X X/6\n")
+for i in results:
+    print(i)
