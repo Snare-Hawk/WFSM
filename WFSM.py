@@ -1,4 +1,4 @@
-secret = "kill"
+secret = "placeholder"
 secret = secret.upper()
 permSecret = secret
 output = ""
@@ -30,8 +30,8 @@ while (tries < 7):
     print("Output: " + output)
     results.append(output)
 
-    if set(output) == {'🟩'}:
-        print(f"Wordle for the Simple-Minded X {tries}/6\n")
+    if permSecret == guess:
+        print(f"Wordle for the Simple-Minded 17 {tries}/6\n")
         for i in results:
             print(i)
         quit()
